@@ -117,4 +117,4 @@ A aplicação segue o padrão **mobile-first**, garantindo uma boa experiência 
 
 ## 👨‍💻 Autor
 
-**Gabriel Nascimento**
+**Gabriel Nascimento**"# notes-app" 
