@@ -1,120 +1,88 @@
-# 📝 NOTES - Aplicação Web de Gerenciamento de Tarefas
+📝 NOTES - Aplicativo Web para Gerenciamento de Tarefas
 
-**NOTES** é uma aplicação web fullstack para gerenciamento de tarefas com foco em produtividade e organização. Permite criar, editar, excluir e filtrar tarefas com suporte a favoritos e cores personalizadas. Possui uma interface moderna e responsiva, pensada para dispositivos móveis.
+NOTES é uma aplicação fullstack feita para ajudar no controle das suas tarefas diárias, focando em facilitar a organização e aumentar a produtividade. Com ela, você pode criar, , apagar e filtrar suas tarefas, além de marcar as mais importantes como favoritas e escolher cores para deixar tudo com a sua cara. A interface é moderna e funciona bem tanto no desktop quanto no celular.
 
----
+✨ O que o app oferece
 
-## ✨ Funcionalidades
+Criar,  e apagar tarefas com facilidade
 
-- ✅ Criar, editar e excluir tarefas
-- ⭐ Marcar tarefas como favoritas
-- 🎨 Personalizar a cor de cada tarefa
-- 🔍 Buscar tarefas por título
-- 🎯 Filtrar por favoritos e por cor
-- 📱 Interface responsiva (mobile-first)
+Marcar tarefas favoritas para acesso rápido
 
----
+Escolher cores diferentes para identificar melhor cada tarefa
 
-## 🛠 Tecnologias Utilizadas
+Buscar tarefas pelo título
 
-### Backend
-- Node.js
-- Express
-- TypeScript
-- MongoDB
-- Mongoose
-- Express Validator
-- Rate Limiter
-- ESLint + Prettier
+Filtrar tarefas por favoritos ou pela cor escolhida
 
-### Frontend
-- React
-- TypeScript
-- Sass (SCSS)
-- Axios
-- ESLint + Prettier
+Layout pensado para funcionar bem em qualquer dispositivo, principalmente celular
 
----
+🛠 Tecnologias usadas
 
-## 📂 Estrutura do Projeto
+Backend
+Node.js
 
-```
+Express
+
+TypeScript
+
+MongoDB
+
+Mongoose
+
+Express Validator
+
+Rate Limiter (limitação de requisições)
+
+ESLint + Prettier para manter o código organizado
+
+Frontend
+React
+
+TypeScript
+
+Sass (SCSS) para estilos
+
+Axios para comunicação com o backend
+
+ESLint + Prettier
+
+📂 Como está organizado o projeto
 notes-app/
 ├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── types/
-│   │   └── utils/
-│   └── package.json
+│ ├── src/
+│ │ ├── controllers/
+│ │ ├── models/
+│ │ ├── routes/
+│ │ ├── types/
+│ │ └── utils/
+│ └── package.json
 ├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   ├── types/
-│   │   ├── styles/
-│   │   └── utils/
-│   └── package.json
+│ ├── src/
+│ │ ├── components/
+│ │ ├── services/
+│ │ ├── types/
+│ │ ├── styles/
+│ │ └── utils/
+│ ├── App.tsx
+│ └── package.json
 └── README.md
-```
 
----
+▶️ Como rodar o projeto no seu computador
+O que precisa ter instalado
+Node.js versão 16 ou superior
 
-## ▶️ Como Executar Localmente
+MongoDB rodando localmente ou uma URL de banco de dados MongoDB acessível
 
-### Pré-requisitos
+Rodando o backend
 
-- Node.js v16+
-- MongoDB em execução local (ou URL externa)
-
-### Backend
-```bash
 cd backend
 npm install
 npm run dev
-```
+Rodando o frontend
 
-A API estará disponível em `http://localhost:3001`
-
-### Frontend
-```bash
 cd frontend
 npm install
 npm start
-```
+Depois disso, acesse o app no navegador pelo endereço: http://localhost:3000
 
-A aplicação estará disponível em `http://localhost:3000`
-
----
-
-## 📋 Scripts
-
-### Backend
-```bash
-npm run dev       # Inicia servidor em modo desenvolvimento
-npm run build     # Compila código TypeScript
-npm run lint      # Verifica padrões de código
-npm run lint:fix  # Corrige automaticamente problemas de lint
-```
-
-### Frontend
-```bash
-npm start         # Inicia aplicação React
-npm build         # Gera build para produção
-npm run lint      # Verifica padrões de código
-npm run lint:fix  # Corrige automaticamente problemas de lint
-```
-
----
-
-## 📱 Responsividade
-
-A aplicação segue o padrão **mobile-first**, garantindo uma boa experiência tanto em dispositivos móveis quanto em telas maiores.
-
----
-
-## 👨‍💻 Autor
-
-**Gabriel Nascimento**"# notes-app" 
+👨‍💻 Feito por Gabriel Nascimento
