@@ -4,7 +4,7 @@ NOTES é uma aplicação fullstack feita para ajudar no controle das suas tarefa
 
 ✨ O que o app oferece
 
-Criar,  e apagar tarefas com facilidade
+Criar, editar e apagar tarefas com facilidade
 
 Marcar tarefas favoritas para acesso rápido
 
